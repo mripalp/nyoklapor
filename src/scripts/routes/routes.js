@@ -1,11 +1,10 @@
-import AccountPage from '../views/pages/account';
-import Admin from '../views/pages/admin';
-import ReportPage from '../views/pages/total-report';
+import Home from '../views/pages/home';
+import Laporan from '../views/pages/laporan';
 
 const routes = {
-  '/admin': Admin,
-  '/account': AccountPage,
-  '/report': ReportPage,
+  '/': Home, // default page
+  '/home': Home,
+  '/laporan': Laporan,
 };
 
 export default routes;
