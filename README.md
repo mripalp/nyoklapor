@@ -1,7 +1,33 @@
-# NyokLapor
+# Panduan Penggunaan Repository nyok_lapor
 
-<br />
-<p align="center">
-  <img src="./src/public/icons/nyoklapor-icon.png" alt="Logo" width="150" height="100">
-  <h3 align="center">NyokLapor</h3>
-</p>
+## Clone Repository
+
+```bash
+git clone -b backend https://github.com/Tonnyade27/nyok_lapor.git
+cd backend
+
+## Hapus Node Modules
+
+```bash
+rm -rf node_modules
+
+## Install Dependencies dengan NPM CI
+
+```bash
+npm ci
+
+## Menjalankan Aplikasi
+### Mode normal
+
+```bash
+npm run start
+
+### Mode Development
+
+```bash
+npm run start:dev
+
+### Mode Production
+
+```bash
+npm run build
